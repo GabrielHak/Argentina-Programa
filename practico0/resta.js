@@ -5,4 +5,4 @@ Respuesta
 let minuendo = 30; // a. minuendo=10
 let sustraendo = 10;
 let resultado = minuendo - sustraendo;
-console.log(resultado);
+console.log(resultad);

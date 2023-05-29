@@ -1,18 +1,13 @@
-// let enero = 10;
-// let febrebro = 20;
-// let marzo = 30;
-// let abril = 40;
-// let mayo = 50;
-// let junio = 60;
-// let julio = 70;
-// let agosto = 80;
-// let septiembre = 90;
-// let octubre = 100;
-// let noviembre = 110;
-// let diciembre = 120;
-// let far = (enero + febrebro + marzo + abril
-//             + mayo + junio + julio + agosto + septiembre
-//             + octubre + noviembre + diciembre)/12;
-let far = 50;
+let temp_meses = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120];
+                // 0   1   2   3   4    5   6   7   8   9   10  11
+
+let far = 0;
+
+for(let contador = 0; contador < 12; contador = contador + 1){
+    far = far + temp_meses[contador];
+}
+
+far = far/12;
+
 let celsius = (far - 32) * 5/9;
 console.log(celsius);
