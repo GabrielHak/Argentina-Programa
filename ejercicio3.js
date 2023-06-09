@@ -42,4 +42,9 @@
 
 let s = "Hola\nmundo";
 s.replace()
-console.log(s.slice(0,s.length/2));
+// console.log(s.slice(0,s.length/2));
+
+let resultadoFinal = 44;
+let esPar = resultadoFinal % 2 === 1;
+console.log('%s', esPar);
+// console.log(`Mi nombre es ${nombre} y tengo ${edad} años`)
